@@ -1,0 +1,6 @@
+{
+  "extends": [
+    "@nuxt",
+    "plugin:tailwindcss/recommended"
+  ]
+}
