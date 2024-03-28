@@ -43,7 +43,7 @@ useHead({
 
     {
       rel: 'stylesheet',
-      href: 'https://dun.land/x/pretendard@1.3.9/pretendard--variable.css',
+      href: 'https://dun.land/x/pretendard@1.3.9/pretendard--variable.min.css',
     },
   ],
 })
