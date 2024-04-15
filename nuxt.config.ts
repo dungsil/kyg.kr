@@ -10,7 +10,12 @@ export default defineNuxtConfig({
     keepalive: true,
     buildAssetsDir: '/public/',
   },
-  modules: ['@nuxtjs/tailwindcss', '@nuxt/image'],
+  modules: ['@nuxt/eslint', '@nuxtjs/tailwindcss', '@nuxt/image'],
+  eslint: {
+    config: {
+      stylistic: true,
+    },
+  },
   tailwindcss: {
     exposeConfig: false,
   },
