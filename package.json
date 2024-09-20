@@ -3,7 +3,7 @@
   "type": "module",
   "name": "kyg.kr",
   "version": "1.0.0",
-  "packageManager": "pnpm@9.9.0",
+  "packageManager": "pnpm@9.11.0",
   "scripts": {
     "postinstall": "nuxi prepare",
     "dev": "nuxi dev",
