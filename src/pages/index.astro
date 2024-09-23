@@ -1,0 +1,67 @@
+---
+import redirects from '~/redirects'
+---
+<!DOCTYPE html>
+<html lang="ko-KR" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initical-scale=1.0" />
+  <title>KYG.kr</title>
+  <style is:global>
+    * {
+      padding: 0;
+      margin: 0;
+    }
+
+    html {
+      font-family: Pretendard, sans-serif;
+      font-kerning: normal;
+      text-rendering: optimizeLegibility;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    a {
+      text-underline-offset: 2px;
+      color: inherit;
+    }
+
+    a:hover {
+      font-weight: 500;
+      color: inherit;
+    }
+
+    #kyg-kr {
+      height: 100vh;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    #buttons {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 1rem;
+      margin-top: 2.5rem;
+
+      list-style: none;
+      color: #6741d9;
+    }
+  </style>
+</head>
+<body>
+<div id="kyg-kr">
+  <h1>준비중</h1>
+  <ul role="list" id="buttons">
+    {Object.entries(redirects).map(([href, { name }]) => (
+      <li>
+        <a href={href} target="_blank">{name}</a>
+      </li>
+    ))}
+  </>
+</div>
+</body>
+</html>

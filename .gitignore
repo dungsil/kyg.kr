@@ -1,6 +1,5 @@
-### Nuxt ###
-.nuxt/
-.output/
+### Astro ###
+.astro/
 dist/
 
 ### Node.js ###
