@@ -2,7 +2,7 @@
   "private": true,
   "type": "module",
   "name": "kyg.kr",
-  "packageManager": "pnpm@9.15.1",
+  "packageManager": "pnpm@9.15.2",
   "scripts": {
     "postinstall": "astro sync",
     "dev": "astro dev",
